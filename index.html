@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Leko Bau GmbH</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Verlinkt die externe CSS-Datei -->
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-left">
+                <img src="lekologo.png" alt="Leko Bau Logo" class="logo">
+            </div>
+            <div class="header-right">
+                <nav>
+                    <ul class="menu" id="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Über uns</a></li>
+                        <li>
+                            <a href="#leistungen">Leistungen</a>
+                            <ul class="submenu">
+                                <li><a href="#wandsysteme">Wandsysteme</a></li>
+                                <li><a href="#deckensysteme">Deckensysteme</a></li>
+                                <li><a href="#brandschutz">Brand & Schallschutz</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#referenzen">Referenzen</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                    <!-- Hamburger Icon (wird nur auf mobilen Geräten angezeigt) -->
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="hero.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Ihr Experte für Wandsysteme, Deckensysteme und Brand & Schallschutz</h1>
+            <p>Qualität im Innenausbau und Sanierung</p>
+            <a href="#kontakt" class="hero-button">Kontaktieren Sie uns</a>
+        </div>
+    </div>    
+
+    <!-- Über uns Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <h2>Unsere Aufgabe</h2>
+            <p>
+                Bei Leko Bau GmbH stehen Qualität und Kundenzufriedenheit im Mittelpunkt.
+                Von der ersten Beratung bis zum Abschluss Ihres Bauprojekts setzen wir alles
+                daran, Ihre Wünsche effizient und nachhaltig umzusetzen.
+            </p>
+            <a href="about.html" class="about-button">Über Uns</a>
+        </div>
+    </section>    
+
+    <!-- Services Section -->
+    <section class="services" id="leistungen">
+        <div class="service-item">
+            <div class="service-image">
+                <img src="wand.jpg" alt="Wandsysteme">
+            </div>
+            <div class="service-text">
+                <h3>Wandsysteme</h3>
+                <ul>
+                    <li>Metallständerwände</li>
+                    <li>Mobile Trennwände</li>
+                    <li>Vorsatzschalen</li>
+                    <li>Strahlenwände</li>
+                    <li>Installations- & Schachtwände</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="service-item">
+            <div class="service-image">
+                <img src="decken.jpg" alt="Deckensysteme">
+            </div>
+            <div class="service-text">
+                <h3>Deckensysteme</h3>
+                <ul>
+                    <li>Akustikdecken</li>
+                    <li>Metalldecken</li>
+                    <li>Gipskartondecken</li>
+                    <li>Mineralfaserdecken</li>
+                    <li>Kühldecken</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="service-item">
+            <div class="service-image">
+                <img src="brandschutz.jpg" alt="Brand & Schallschutz">
+            </div>
+            <div class="service-text">
+                <h3>Brand & Schallschutz</h3>
+                <ul>
+                    <li>Wand-, Decken-, Bodenschutzsysteme</li>
+                    <li>Träger- und Stützenbekleidungen</li>
+                    <li>Sämtliche Akustik Wände & Decken</li>
+                    <li>Schallschutzwandsysteme</li>
+                    <li>Akustik Elementdecken</li>
+                    <li>Mineraldeckensysteme</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="referenzen" class="referenzen">
+        <h2>Unsere Referenzen</h2>
+        <div class="images-grid">
+            <img src="referenz1.jpg" alt="Referenz Projekt 1">
+            <img src="referenz2.jpg" alt="Referenz Projekt 2">
+            <img src="referenz3.jpg" alt="Referenz Projekt 3">
+        </div>
+        <div class="referenzen-button-container">
+            <a href="referenzen.html" class="referenzen-button">Mehr</a>
+        </div>
+    </section>
+
+<!-- Info Section -->
+<section class="info-section">
+    <h2>Wieso uns wählen?</h2>
+    <div class="info-grid">
+        <div class="info-item">
+            <div class="icon">
+                <img src="bau.png" alt="Expertise Icon">
+            </div>
+            <h3>Expertise</h3>
+            <p>Unsere langjährige Erfahrung und Fachkompetenz garantieren Ihnen höchste Qualität in jedem Projekt.</p>
+        </div>
+
+        <div class="info-item">
+            <div class="icon">
+                <img src="hand.png" alt="Vertrauen und Zusammenarbeit Icon">
+            </div>
+            <h3>Vertrauen und Zusammenarbeit</h3>
+            <p>Wir arbeiten eng mit Ihnen zusammen, um Ihre Wünsche zu realisieren und bauen auf Vertrauen.</p>
+        </div>
+
+        <div class="info-item">
+            <div class="icon">
+                <img src="steig.png" alt="Konstante Ergebnisse Icon">
+            </div>
+            <h3>Konstante Ergebnisse</h3>
+            <p>Unsere Projekte liefern Ihnen kontinuierlich erstklassige Ergebnisse, die Ihre Erwartungen übertreffen.</p>
+        </div>
+    </div>
+</section>
+
+    <section id="kontakt" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-form-box">
+                <h2>Kontaktieren Sie uns</h2>
+                <p>Wir sind für Sie da! Schreiben Sie uns eine Nachricht, wir melden uns umgehend bei Ihnen.</p>
+                <form action="send_mail.php" method="post">
+                    <input type="text" name="name" placeholder="Ihr Name" required>
+                    <input type="email" name="email" placeholder="Ihre E-Mail" required>
+                    <input type="tel" name="phone" placeholder="Ihre Telefonnummer" required>
+                    <textarea name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+                    <button type="submit">Nachricht senden</button>
+                </form>
+            </div>
+            <div class="contact-details">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41026.67336642573!2d13.237381678967747!3d52.554242539507506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85137ab5e2b59%3A0x37bc5a22da945cdb!2sLeko%20Bau%20GmbH!5e0!3m2!1sde!2sde!4v1728392987354!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="lekologo.png" alt="Logo" class="logo">
+            <p>© 2024 Leko Bau GmbH. Alle Rechte vorbehalten.</p>
+            <div class="footer-links">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.getElementById('menu').classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
